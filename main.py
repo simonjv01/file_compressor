@@ -8,7 +8,7 @@ label2 = sg.Text("Select destination folder:")
 input2 = sg.Input()
 choose_button2 = sg.FolderBrowse("Choose")
 
-window = sg.Window("File Compressor", layout=[[label1, input1]])
+window = sg.Window("File Compressor", layout=[[label1, input1, choose_button]])
 window.extend_layout(window, [[choose_button], [label2, input2]])
 window.extend_layout(window, [[choose_button2]])
 window.extend_layout(window, [[sg.Button("Compress"), sg.Button("Exit")]])
