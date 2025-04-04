@@ -6,3 +6,5 @@ choose_button = sg.FilesBrowse("Browse", key='-BROWSE-')
 
 label2 = sg.Text("Select destination folder:")
 input2 = sg.Input()
+choose_button2 = sg.FolderBrowse("Choose")
+
